@@ -10,7 +10,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [openNavbar, setOpenNavbar] = useState(false);
   return (
-    <nav className="w-full lg:h-20 backdrop-blur-3xl sticky top-0 z-20 bg-black">
+    <nav className="w-full lg:h-20 lg:backdrop-blur-3xl sticky top-0 z-20 lg:bg-linear-60 lg:from-amber-950/20 lg:via-gray-50/10 lg:to-amber-950/20">
       {/* desktops and laptops navbar */}
       <div className="hidden container_width lg:flex  items-center justify-between">
         <div>
@@ -33,7 +33,7 @@ const Navbar = () => {
           {navData.map((item) => (
             <li
               key={item.id}
-              className="font-mono text-sm tracking-wider text-white"
+              className="font-sora text-xs tracking-wider text-white hover:text-orange-300 duration-500"
             >
               <Link href={item.href}>{item.title}</Link>
             </li>
@@ -46,8 +46,8 @@ const Navbar = () => {
 
       {/* mobile phones and tablet navbar */}
 
-      <div className="lg:hidden  items-center justify-between bg-black">
-        <div className="flex items-center justify-between h-16 container_width">
+      <div className="lg:hidden items-center justify-between">
+        <div className="flex items-center justify-between h-16 container_width bg-linear-60 from-amber-950/20 via-gray-50/10 to-amber-950/20 backdrop-blur-3xl">
           {/* Navbar logo */}
           <Link href="/">
             <Image
@@ -71,13 +71,14 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`absolute h-[calc(100vh-64px)] w-full bg-black z-50 transition-all duration-700 ${
+          className={`absolute h-[calc(100vh-64px)] w-full z-50 transition-all duration-500 bg-orange-900 ${
             openNavbar
               ? "translate-x-0"
               : "-translate-x-125 md:-translate-x-225"
           }`}
         >
           {/* navbar links */}
+
           <ul className="w-full flex flex-col pt-10 gap-7 container_width">
             {navData.map((item) => (
               <li
