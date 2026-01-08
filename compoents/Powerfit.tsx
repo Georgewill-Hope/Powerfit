@@ -14,7 +14,7 @@ const PowerfitCard = ({ title, desc, icon }: PowerfitCardProps) => {
       <div>{icon}</div>
       <div>
         <h3 className="font-semibold tracking-wide text-sm mb-1 text-gray-50">{title}</h3>
-        <p className="text-xs text-gray-300 tracking-wider">{desc}</p>
+        <p className="text-xs text-gray-300 tracking-wider font-sora">{desc}</p>
       </div>
     </div>
   );

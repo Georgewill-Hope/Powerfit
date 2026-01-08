@@ -39,7 +39,7 @@ const Navbar = () => {
             </li>
           ))}
           <li className="font-mono text-[10px] tracking-wider">
-            +234 8051073722
+            georgeblue222@gmail.com
           </li>
         </ul>
       </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
               </li>
             ))}
             <li className="font-mono text-[10px] tracking-wider mt-auto mb-5">
-              +234 8051073722
+              georgeblue222@gmail.com
             </li>
           </ul>
         </div>
