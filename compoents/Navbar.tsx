@@ -46,8 +46,8 @@ const Navbar = () => {
 
       {/* mobile phones and tablet navbar */}
 
-      <div className="lg:hidden items-center justify-between">
-        <div className="flex items-center justify-between h-16 container_width">
+      <div className="lg:hidden items-center justify-between bg-linear-60 from-amber-950/20 via-gray-50/10 to-amber-950/20">
+        <div className="flex items-center justify-between h-16 container_width bg-linear-60 from-amber-950/20 via-gray-50/10 to-amber-950/20">
           {/* Navbar logo */}
           <Link href="/">
             <Image
