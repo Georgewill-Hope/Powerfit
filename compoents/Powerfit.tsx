@@ -13,7 +13,7 @@ const PowerfitCard = ({ title, desc, icon }: PowerfitCardProps) => {
     <div className="flex gap-3">
       <div>{icon}</div>
       <div>
-        <h3 className="font-semibold tracking-wide text-sm mb-1">{title}</h3>
+        <h3 className="font-semibold tracking-wide text-sm mb-1 text-gray-50">{title}</h3>
         <p className="text-xs text-gray-300 tracking-wider">{desc}</p>
       </div>
     </div>

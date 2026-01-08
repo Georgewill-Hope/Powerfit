@@ -10,9 +10,9 @@ import { useState } from "react";
 const Navbar = () => {
   const [openNavbar, setOpenNavbar] = useState(false);
   return (
-    <nav className="w-full lg:h-20 lg:backdrop-blur-3xl sticky top-0 z-20 lg:bg-linear-60 lg:from-amber-950/20 lg:via-gray-50/10 lg:to-amber-950/20">
+    <nav className="w-full lg:h-20 backdrop-blur-3xl sticky top-0 z-20 bg-linear-60 from-amber-950/20 via-gray-50/10 to-amber-950/20">
       {/* desktops and laptops navbar */}
-      <div className="hidden container_width lg:flex  items-center justify-between">
+      <div className="hidden container_width lg:flex items-center justify-between">
         <div>
           {/* navbar logo */}
           <Link href="/">
@@ -47,7 +47,7 @@ const Navbar = () => {
       {/* mobile phones and tablet navbar */}
 
       <div className="lg:hidden items-center justify-between">
-        <div className="flex items-center justify-between h-16 container_width bg-linear-60 from-amber-950/20 via-gray-50/10 to-amber-950/20 backdrop-blur-3xl">
+        <div className="flex items-center justify-between h-16 container_width">
           {/* Navbar logo */}
           <Link href="/">
             <Image
