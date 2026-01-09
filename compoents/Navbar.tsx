@@ -46,8 +46,8 @@ const Navbar = () => {
 
       {/* mobile phones and tablet navbar */}
 
-      <div className="lg:hidden items-center justify-between bg-linear-60 from-amber-950/20 via-gray-50/10 to-amber-950/20">
-        <div className="flex items-center justify-between h-16 container_width bg-linear-60 from-amber-950/20 via-gray-50/10 to-amber-950/20">
+      <div className="lg:hidden items-center justify-between">
+        <div className="flex items-center justify-between h-16 container_wi">
           {/* Navbar logo */}
           <Link href="/">
             <Image
@@ -63,15 +63,15 @@ const Navbar = () => {
 
           <button onClick={() => setOpenNavbar(!openNavbar)}>
             {!openNavbar ? (
-              <AiOutlineMenu size={25} />
+              <AiOutlineMenu size={25} className="text-gray-100"/>
             ) : (
-              <AiOutlineClose size={25} />
+              <AiOutlineClose size={25} className="text-gray-100"/>
             )}
           </button>
         </div>
 
         <div
-          className={`absolute h-[calc(100vh-64px)] w-full z-50 transition-all duration-500 bg-orange-900 ${
+          className={`absolute h-[calc(100vh-64px)] w-full z-50 transition-all duration-500 bg-black backdrop-blur-3xl ${
             openNavbar
               ? "translate-x-0"
               : "-translate-x-125 md:-translate-x-225"
