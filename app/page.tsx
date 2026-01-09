@@ -1,4 +1,5 @@
 import About from "@/compoents/About";
+import Classes from "@/compoents/Classes";
 import Hero from "@/compoents/Hero";
 import Powerfit from "@/compoents/Powerfit";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Powerfit />
       <About />
+      <Classes />
     </div>
   );
 }

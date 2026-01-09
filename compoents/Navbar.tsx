@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="w-full lg:h-20 backdrop-blur-3xl sticky top-0 z-20 bg-linear-60 from-amber-950/20 via-gray-50/10 to-amber-950/20">
       {/* desktops and laptops navbar */}
-      <div className="hidden container_width lg:flex items-center justify-between">
+      <div className="hidden container_width md:flex items-center justify-between">
         <div>
           {/* navbar logo */}
           <Link href="/">
@@ -46,8 +46,8 @@ const Navbar = () => {
 
       {/* mobile phones and tablet navbar */}
 
-      <div className="lg:hidden items-center justify-between">
-        <div className="flex items-center justify-between h-16 container_wi">
+      <div className="md:hidden items-center justify-between">
+        <div className="flex items-center justify-between h-16 container_width">
           {/* Navbar logo */}
           <Link href="/">
             <Image
@@ -74,7 +74,7 @@ const Navbar = () => {
           className={`absolute h-[calc(100vh-64px)] w-full z-50 transition-all duration-500 bg-black backdrop-blur-3xl ${
             openNavbar
               ? "translate-x-0"
-              : "-translate-x-125 md:-translate-x-225"
+              : "-translate-x-250"
           }`}
         >
           {/* navbar links */}

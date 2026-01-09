@@ -26,6 +26,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+
 .container_width {
-  @apply w-full max-w-2xl lg:max-w-6xl mx-auto px-3 md:px-5 
+  @apply w-full max-w-2xl md:max-w-6xl mx-auto px-3 md:px-5 
+}
+
+.header{
+  @apply text-xl lg:text-2xl font-semibold tracking-wider font-sora text-gray-100
+}
+
+.para{
+  @apply text-gray-500 text-sm font-sans leading-6
 }
