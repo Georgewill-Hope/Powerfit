@@ -10,7 +10,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [openNavbar, setOpenNavbar] = useState(false);
   return (
-    <nav className="w-full lg:h-20 backdrop-blur-3xl sticky top-0 z-20 bg-linear-60 from-amber-950/20 via-gray-50/10 to-amber-950/20">
+    <nav className="w-full lg:h-20 backdrop-blur-3xl sticky top-0 z-20 bg-orange-600 lg:bg-orange-600/90 shadow">
       {/* desktops and laptops navbar */}
       <div className="hidden container_width md:flex items-center justify-between">
         <div>
@@ -63,18 +63,16 @@ const Navbar = () => {
 
           <button onClick={() => setOpenNavbar(!openNavbar)}>
             {!openNavbar ? (
-              <AiOutlineMenu size={25} className="text-gray-100"/>
+              <AiOutlineMenu size={25} className="text-gray-100" />
             ) : (
-              <AiOutlineClose size={25} className="text-gray-100"/>
+              <AiOutlineClose size={25} className="text-gray-100" />
             )}
           </button>
         </div>
 
         <div
-          className={`absolute h-[calc(100vh-64px)] w-full z-50 transition-all duration-500 bg-black backdrop-blur-3xl ${
-            openNavbar
-              ? "translate-x-0"
-              : "-translate-x-250"
+          className={`absolute h-[calc(100vh-64px)] w-full z-50 transition-all duration-500 bg-orange-600 ${
+            openNavbar ? "translate-x-0" : "-translate-x-250"
           }`}
         >
           {/* navbar links */}

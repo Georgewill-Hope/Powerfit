@@ -26,17 +26,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
 .container_width {
-  @apply w-full max-w-2xl md:max-w-6xl mx-auto px-3 md:px-5 
+  @apply w-full max-w-2xl md:max-w-6xl mx-auto px-3 md:px-5
 }
 
-.header{
+.header {
   @apply text-xl lg:text-2xl font-semibold tracking-wider font-sora text-gray-100
 }
 
-.para{
+.para {
   @apply text-gray-500 text-sm font-sans leading-6
+}
+
+.card_body {
+  @apply bg-gray-50 rounded-lg px-3.5 py-4 flex flex-col justify-between gap-9
+}
+
+.card_header {
+  @apply text-sm font-semibold tracking-wider font-sora text-gray-950
+}
+
+.card_para {
+  @apply text-neutral-800 text-xs font-sans leading-6 w-full max-w-80
 }

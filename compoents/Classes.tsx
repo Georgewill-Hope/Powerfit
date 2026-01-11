@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Card from "./Card";
 import backgroundImage from "@/public/assets/bg-pattern.avif";
-import cardImage from "@/public/assets/man-training.jpg";
-import womanTraining from "@/public/assets/woman-training.jpg"
-import fitIndividual from  "@/public/assets/close-up-athlete-training.jpg"
+import manTraining from "@/public/assets/man-training.jpg";
+import womanTraining from "@/public/assets/woman-exercising.jpg";
+import fitIndividual from "@/public/assets/people-doing-sport.jpg";
 
 const Classes = () => {
   return (
@@ -52,13 +52,13 @@ const Classes = () => {
             <Card
               title="Strength training"
               desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-              image={cardImage}
-              />
+              image={manTraining}
+            />
             <Card
               title="Yoga & Pilates"
               desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
               image={womanTraining}
-              />
+            />
             <Card
               title="Cardio Blast"
               desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
