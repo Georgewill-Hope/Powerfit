@@ -20,7 +20,7 @@ const Choose = () => {
           {/* Section Sub-title */}
           <div className="flex items-center justify-center gap-2 rounded-full w-fit bg-black/85 px-3 py-1">
             <div className="size-1.5 rounded-full bg-orange-600" />
-            <p className="font-sora text-xs">Why Choose Us?</p>
+            <p className="font-sora text-xs text-gray-100">Why Choose Us?</p>
           </div>
 
           {/* Section Title */}
