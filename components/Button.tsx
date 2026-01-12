@@ -18,7 +18,7 @@ const Button = ({ title, type }: ButtonProps) => {
 
   return (
     <button
-      className={`bg-black/50 px-6 py-1.5 tracking-wider rounded-xs text-gray-200 font-mono ring-1 ring-gray-200 hover:bg-black transition-colors duration-300 cursor-pointer text-sm`}
+      className={`bg-black lg:bg-black/50 px-6 py-1.5 tracking-wider rounded-xs text-gray-200 font-mono ring-1 ring-gray-200 hover:bg-black transition-colors duration-300 cursor-pointer text-sm`}
     >
       {title}
     </button>

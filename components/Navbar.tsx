@@ -10,7 +10,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [openNavbar, setOpenNavbar] = useState(false);
   return (
-    <nav className="w-full lg:h-20 backdrop-blur-3xl sticky top-0 z-20 bg-orange-600 lg:bg-orange-600/90 shadow">
+    <nav className="w-full lg:h-20 backdrop-blur-3xl sticky top-0 z-20 bg-linear-60 from-amber-950/20 via-gray-50/10 to-amber-950/20">
       {/* desktops and laptops navbar */}
       <div className="hidden container_width md:flex items-center justify-between">
         <div>

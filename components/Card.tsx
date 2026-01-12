@@ -67,7 +67,7 @@ const Card: React.FC<CardProps> = ({
                   key={i}
                   width={images.length === 1 ? 200 : 70}
                   height={100}
-                  className={`${images.length === 1 ? "opacity-15" : "opacity-80"}`}
+                  className={`${images.length === 1 ? "opacity-15" : " opacity-60"}`}
                 />
               ))}
             </div>
@@ -91,7 +91,7 @@ const Card: React.FC<CardProps> = ({
             )}
           </div>
           <div>
-            <h3 className="text-sm text-orange-600 tracking-wider font-semibold font-mono">
+            <h3 className="text-xs lg:text-sm text-orange-600 tracking-wider font-semibold font-mono">
               {title}
             </h3>
             <p className="card_para">{subDesc}</p>

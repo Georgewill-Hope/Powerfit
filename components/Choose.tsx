@@ -38,7 +38,7 @@ const Choose = () => {
             image={womanTraining}
             images={[pepsiLogo, fantaLogo, cokeLogo]}
             type="image, title and sub-image card"
-            prefferedStyles="sm:col-span-2 md:row-span-2 md:col-span-1 h-52 sm:h-auto"
+            prefferedStyles="sm:col-span-2 lg:col-span-1 md:row-span-2 lg:col-span-1 h-52 sm:h-auto"
           />
           <Card
             title="Our Vision"
@@ -50,7 +50,7 @@ const Choose = () => {
             image={manTraining}
             images={[logo]}
             type="image, title and sub-image card"
-            prefferedStyles="sm:row-span-2 md:row-span-1 h-52 sm:h-auto"
+            prefferedStyles="sm:row-span-3 lg:row-span-1 md:row-span-1 h-52 sm:h-auto"
           />
           <Card
             title="Georgewill Hope"
@@ -58,7 +58,7 @@ const Choose = () => {
             subDesc="CEO, PowerFit"
             image={womanTraining}
             type="profile card"
-            prefferedStyles="h-52 sm:h-auto"
+            prefferedStyles="h-52 sm:h-auto sm:row-span-2 lg:row-span-1"
           />
           <Card
             title="98%"
@@ -70,7 +70,7 @@ const Choose = () => {
               womanTraining,
             ]}
             type="title, desc and rotated sub-image card"
-            prefferedStyles="h-52 sm:h-auto"
+            prefferedStyles="h-52 sm:h-auto sm:row-span-2 lg:row-span-1"
           />
           <Card
             title="Our Mission"

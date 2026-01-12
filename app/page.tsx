@@ -1,8 +1,8 @@
-import About from "@/compoents/About";
-import Choose from "@/compoents/Choose";
-import Classes from "@/compoents/Classes";
-import Hero from "@/compoents/Hero";
-import Powerfit from "@/compoents/Powerfit";
+import About from "@/components/About";
+import Choose from "@/components/Choose";
+import Classes from "@/components/Classes";
+import Hero from "@/components/Hero";
+import Powerfit from "@/components/Powerfit";
 
 export default function Home() {
   return (
