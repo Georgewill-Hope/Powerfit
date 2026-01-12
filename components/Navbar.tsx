@@ -71,7 +71,7 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`absolute h-[calc(100vh-64px)] w-full z-70 transition-all duration-500 bg-orange-600 ${
+          className={`absolute h-[calc(100vh-64px)] w-full z-10 transition-all duration-500 bg-orange-600 ${
             openNavbar ? "translate-x-0" : "-translate-x-250"
           }`}
         >
