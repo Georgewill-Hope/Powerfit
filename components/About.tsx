@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <section className="relative h-[70vh]">
+    <section className="relative h-[70vh] lg:max-h-[70vh] max-h-125">
       {/* Section Background Image */}
       <Image
         src={aboutImage}

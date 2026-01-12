@@ -8,7 +8,7 @@ import Icon from "./Icon";
 
 const Hero = () => {
   return (
-    <section className="w-full h-[calc(100vh-216px)] relative">
+    <section className="w-full h-[calc(100svh-216px)] max-h-150 lg:max-h-[calc(100vh-216px)] relative">
       {/* Background Image */}
       <Image
         src={heroImage}
@@ -21,7 +21,6 @@ const Hero = () => {
       {/* Content Overlay  */}
       <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center bg-black/50">
         <div className="container_width flex flex-col gap-7 md:gap-10">
-
           {/* Section Header */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-sora text-gray-50">
             Get Fit. <br /> Stay{" "}

@@ -12,7 +12,7 @@ const Classes = () => {
         relative w-full overflow-hidden
        bg-linear-210 md:bg-linear-60 from-black/80 from-30% via-orange-500/20 md:via-black/90 via-55% to-orange-500/20
         py-16 sm:py-20 lg:py-24
-        md:min-h-[80vh]
+        
       "
     >
       {/* Background Image */}
