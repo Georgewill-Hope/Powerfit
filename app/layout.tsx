@@ -34,7 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${sora.variable} antialiased scroll-smooth`}
       >
-        <main>
+        <main className="bg-[#0a0a0a]">
           <Navbar />
           {children}
           <Footer />
